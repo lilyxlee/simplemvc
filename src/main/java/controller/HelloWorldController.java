@@ -10,7 +10,7 @@ public class HelloWorldController {
 
     @RequestMapping("/h")
     public String handleHelloworld(Model model){
-        model.addAttribute("message", "dfasf");
+        model.addAttribute("message", "test");
         return "helloworld";
     }
 
